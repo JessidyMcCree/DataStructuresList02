@@ -1,0 +1,14 @@
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.AssemblyInfoInputs.cache
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.AssemblyInfo.cs
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.csproj.CoreCompileInputs.cache
+C:\Users\jessi\source\repos\datastructures02\bin\Debug\net9.0\datastructures02.exe
+C:\Users\jessi\source\repos\datastructures02\bin\Debug\net9.0\datastructures02.deps.json
+C:\Users\jessi\source\repos\datastructures02\bin\Debug\net9.0\datastructures02.runtimeconfig.json
+C:\Users\jessi\source\repos\datastructures02\bin\Debug\net9.0\datastructures02.dll
+C:\Users\jessi\source\repos\datastructures02\bin\Debug\net9.0\datastructures02.pdb
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.dll
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\refint\datastructures02.dll
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.pdb
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\datastructures02.genruntimeconfig.cache
+C:\Users\jessi\source\repos\datastructures02\obj\Debug\net9.0\ref\datastructures02.dll
