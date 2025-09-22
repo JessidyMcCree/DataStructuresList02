@@ -52,45 +52,41 @@ long Factorial(int n)
 }
 Console.WriteLine(Factorial(5));  // Output: 120
 //6
-int i = 1, j = 1, x = 1;
-void SuperFacorialRecursion(int n)
+long SuperFactorial(int n)
 {
-    if (j <= n)
+    long result = 1;
+    for (int j = 1; j <= n; j++)
     {
-        if (i <= j)
+        long factorial = 1;
+        for (int i = 1; i <= j; i++)
         {
-            x *= i;
-            i++;
-            SuperFacorialRecursion(n);
+            factorial *= i;
         }
-        else
-        {
-            i = 1;
-            j++;
-            SuperFacorialRecursion(n);
-        }
+        result *= factorial;
     }
-    else
-        Console.WriteLine(x);
+    return result;
 }
-SuperFacorialRecursion(4);
+Console.WriteLine(SuperFactorial(4));  // Output: 288 (1! * 2! * 3! * 4! = 1 * 2 * 6 * 24)
 //7
-int[] x = [0, 0, 0, 1];
-int i = 0, y = 0;
-void TetanacciSequence(int n)
+int TetanacciSequence(int n)
 {
-    if ((i + 1) <= (n - 4))
+    if (n < 4) return n == 3 ? 1 : 0;
+    
+    int[] sequence = new int[n + 1];
+    sequence[0] = 0;
+    sequence[1] = 0;
+    sequence[2] = 0;
+    sequence[3] = 1;
+    
+    for (int i = 4; i <= n; i++)
     {
-        y = x[i] + x[i + 1] + x[i + 2] + x[i + 3];
-        x = x.Append(y).ToArray();
-        i++;
-        TetanacciSequence(n);
+        sequence[i] = sequence[i - 1] + sequence[i - 2] + sequence[i - 3] + sequence[i - 4];
     }
-    else
-        Console.WriteLine(y);
+    
+    return sequence[n];
 }
 
-TetanacciSequence(4); // Output: 4 (0-based index)
+Console.WriteLine(TetanacciSequence(4)); // Output: 1
 //8
 long SumCubes(int n)
 {
@@ -107,22 +103,20 @@ int SumDigits(int num)
 }
 Console.WriteLine(SumDigits(123));  // Output: 6
 //10
-int[] x = [0, 1];
-int i = 2;
-void PellNumbersRecursion(int n)
+int PellNumbers(int n)
 {
-    if (n > 1)
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+    
+    int[] pell = new int[n + 1];
+    pell[0] = 0;
+    pell[1] = 1;
+    
+    for (int i = 2; i <= n; i++)
     {
-        if (i <= n)
-        {
-            x = x.Append(2 * x[i - 1] + x[i - 2]).ToArray();
-            i++;
-            PellNumbersRecursion(n);
-        }
-        else
-            Console.WriteLine(x [n]);
+        pell[i] = 2 * pell[i - 1] + pell[i - 2];
     }
-    else
-        Console.WriteLine(n);
+    
+    return pell[n];
 }
-PellNumbersRecursion(7);// Output: 70 (P(7) in the sequence: 0,1,2,5,12,29,70,169...)
+Console.WriteLine(PellNumbers(7));// Output: 169 (P(7) in the sequence: 0,1,2,5,12,29,70,169...)

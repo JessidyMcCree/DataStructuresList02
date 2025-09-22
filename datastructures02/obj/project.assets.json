@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jessi\\source\\repos\\datastructures02\\datastructures02.csproj",
+      "projectUniqueName": "C:\\Users\\jessi\\OneDrive\\Documentos\\GitHub\\DataStructuresList02\\datastructures02\\datastructures02.csproj",
       "projectName": "datastructures02",
-      "projectPath": "C:\\Users\\jessi\\source\\repos\\datastructures02\\datastructures02.csproj",
+      "projectPath": "C:\\Users\\jessi\\OneDrive\\Documentos\\GitHub\\DataStructuresList02\\datastructures02\\datastructures02.csproj",
       "packagesPath": "C:\\Users\\jessi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jessi\\source\\repos\\datastructures02\\obj\\",
+      "outputPath": "C:\\Users\\jessi\\OneDrive\\Documentos\\GitHub\\DataStructuresList02\\datastructures02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
